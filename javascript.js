@@ -92,7 +92,7 @@ function proiz() {
 window.addEventListener('DOMContentLoaded', function (event) {
     document.getElementById("type").addEventListener("click", hide);
     document.getElementById("type").addEventListener("click", proiz);
-    document.getElementById("n2").addEventListener("keyup", proiz);
+     document.getElementById("n2").addEventListener("keyup", proiz);
     document.getElementById("radio1").addEventListener("change", proiz);
     document.getElementById("radio2").addEventListener("change", proiz);
     document.getElementById("checkbox1").addEventListener("change", proiz);
